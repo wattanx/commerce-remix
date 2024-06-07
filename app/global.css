@@ -17,6 +17,18 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: theme('colors.white');
   background: theme('colors.gray.900');
+}
+
+.item-name {
+  view-transition-name: item-name;
+}
+
+.item-image {
+  view-transition-name: item-image;
+}
+
+.item-price {
+  view-transition-name: item-price;
 }
